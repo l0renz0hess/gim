@@ -19,3 +19,4 @@ corso di grafica in movimento 2025, SUPSI
 Testo...
 
 ## Esercizio 2
+- [Esercizio 2](/Esercizio_2/template/index.html)
