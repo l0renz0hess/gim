@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="author" content="Nome Cognome" />
+	<title>img</title>
+	<style type="text/css">
+		html{
+			height:100%;
+		}
+		body{
+			background-color: rgb(235,235,235);
+			margin: 3em 2em;
+		}
+	</style>
+
+</head>
+<body>
+
+	<img />
+
+	<script type="module">
+
+		const sequenza = [
+			"img/logo_adobe_00000.png",
+			"img/logo_adobe_00001.png",
+			"img/logo_adobe_00002.png",
+			"img/logo_adobe_00003.png",			
+			"img/logo_adobe_00004.png",
+			"img/logo_adobe_00005.png",
+			"img/logo_adobe_00006.png",
+			"img/logo_adobe_00007.png",
+			"img/logo_adobe_00008.png",
+			"img/logo_adobe_00009.png",
+			"img/logo_adobe_00010.png",
+			"img/logo_adobe_00011.png",
+			"img/logo_adobe_00012.png",
+			"img/logo_adobe_00013.png",
+			"img/logo_adobe_00014.png",
+			"img/logo_adobe_00015.png",
+			"img/logo_adobe_00016.png",
+			"img/logo_adobe_00017.png",
+			"img/logo_adobe_00018.png",
+			"img/logo_adobe_00019.png",
+			"img/logo_adobe_00020.png",
+			"img/logo_adobe_00021.png",
+			"img/logo_adobe_00022.png",
+			"img/logo_adobe_00023.png",
+			"img/logo_adobe_00024.png",
+			"img/logo_adobe_00025.png",
+			"img/logo_adobe_00026.png",
+			"img/logo_adobe_00027.png",
+			"img/logo_adobe_00028.png",			
+			"img/logo_adobe_00029.png",
+			"img/logo_adobe_00030.png",
+			"img/logo_adobe_00031.png",
+			"img/logo_adobe_00032.png",
+			"img/logo_adobe_00033.png",
+			"img/logo_adobe_00034.png",
+			"img/logo_adobe_00035.png",
+			"img/logo_adobe_00036.png",
+			"img/logo_adobe_00037.png",
+			"img/logo_adobe_00038.png",
+			"img/logo_adobe_00039.png",			
+			"img/logo_adobe_00040.png",	
+			"img/logo_adobe_00041.png",	
+			"img/logo_adobe_00042.png",	
+			"img/logo_adobe_00043.png",	
+			"img/logo_adobe_00044.png",	
+			"img/logo_adobe_00045.png",	
+			"img/logo_adobe_00046.png",	
+			"img/logo_adobe_00047.png",	
+			"img/logo_adobe_00048.png",	
+			"img/logo_adobe_00049.png",	
+			"img/logo_adobe_00050.png",	
+			"img/logo_adobe_00051.png",	
+			"img/logo_adobe_00052.png",	
+			"img/logo_adobe_00053.png",	
+			"img/logo_adobe_00054.png",	
+			"img/logo_adobe_00055.png",	
+			"img/logo_adobe_00056.png",	
+			"img/logo_adobe_00057.png",	
+			"img/logo_adobe_00058.png",	
+			"img/logo_adobe_00059.png",	
+			"img/logo_adobe_00060.png",	
+			"img/logo_adobe_00061.png",	
+			"img/logo_adobe_00062.png",	
+			"img/logo_adobe_00063.png",	
+			"img/logo_adobe_00064.png",	
+			"img/logo_adobe_00065.png",	
+			"img/logo_adobe_00066.png",	
+			"img/logo_adobe_00067.png",	
+			"img/logo_adobe_00068.png",	
+			"img/logo_adobe_00069.png",	
+			"img/logo_adobe_00070.png",	
+			"img/logo_adobe_00071.png",	
+			"img/logo_adobe_00072.png",	
+			"img/logo_adobe_00073.png",	
+			"img/logo_adobe_00074.png",
+			"img/logo_adobe_00075.png",
+			"img/logo_adobe_00076.png",	
+			"img/logo_adobe_00077.png",
+			"img/logo_adobe_00078.png",
+			"img/logo_adobe_00079.png",
+			"img/logo_adobe_00080.png",
+			"img/logo_adobe_00081.png",
+			"img/logo_adobe_00082.png",
+			"img/logo_adobe_00083.png",
+			"img/logo_adobe_00084.png",
+			"img/logo_adobe_00085.png",
+			"img/logo_adobe_00086.png",
+			"img/logo_adobe_00087.png",
+			"img/logo_adobe_00088.png",
+			"img/logo_adobe_00089.png",
+			"img/logo_adobe_00090.png",
+			"img/logo_adobe_00091.png",
+			"img/logo_adobe_00092.png",
+			"img/logo_adobe_00093.png",
+			"img/logo_adobe_00094.png",
+			"img/logo_adobe_00095.png",
+			"img/logo_adobe_00096.png",
+			"img/logo_adobe_00097.png",
+			"img/logo_adobe_00098.png",
+			"img/logo_adobe_00099.png",
+
+
+		]
+
+		let frame = 0
+
+		setInterval(() => {
+			const img = document.querySelector("img")
+			img.src = sequenza[frame]
+			frame = (frame + 1) % sequenza.length
+		}, 50)
+
+	</script>
+</body>
+</html>
