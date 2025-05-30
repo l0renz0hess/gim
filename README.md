@@ -20,3 +20,6 @@ Testo...
 
 ## Esercizio 2
 - [Esercizio 2](/Esercizio_2/template/index.html)
+
+## Esercizio 3
+- [Esercizio 3](Esercizio_3_forma_e_colore/index)
