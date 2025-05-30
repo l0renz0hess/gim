@@ -1,7 +1,7 @@
 {
-	"name": "esempio05 pioggia2",
-	"short_name": "esempio05 pioggia2",
-	"description": "esempio05 pioggia2",
+	"name": "Neve",
+	"short_name": "Neve",
+	"description": "Neve",
 	"display_override": ["fullscreen"],
 	"display": "standalone",
 	"icons": [
