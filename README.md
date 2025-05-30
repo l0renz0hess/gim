@@ -22,4 +22,12 @@ Testo...
 - [Esercizio 2](https://l0renz0hess.github.io/gim/Esercizio_2/template/index.html)
 
 ## Esercizio 3
-- [Esercizio 3](https://l0renz0hess.github.io/gim/Esercizio_3_forma_e_colore/index)
+- [Esercizio 3A](https://l0renz0hess.github.io/gim/Esercizio_3A_forma_e_colore/index)
+- [Esercizio 3B](https://l0renz0hess.github.io/gim/Esercizio_3B_Interazione/index)
+
+## Esercizio 4
+- [Esercizio 4](https://l0renz0hess.github.io/gim/Esercizio_4/index)
+
+## Esercizio 5
+- [Esercizio 5A](https://l0renz0hess.github.io/gim/Esercizio_5A_pioggia)
+- [Esercizio 5B](https://l0renz0hess.github.io/gim/Esercizio_5B_pioggia_3D)
