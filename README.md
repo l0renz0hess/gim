@@ -16,7 +16,7 @@ corso di grafica in movimento 2025, SUPSI
 - [Esercizio 1B](https://l0renz0hess.github.io/gim/Esercizio_1B/template/index.html)
 
 ## Esercizio 1C
-- [Esercizio 1C](https://l0renz0hess.github.io/gim/Esercizio_1C/README)
+- [Esercizio 1C](https://l0renz0hess.github.io/gim/Esercizio_1C/README.md)
 
 ## Esercizio 2
 - [Esercizio 2](https://l0renz0hess.github.io/gim/Esercizio_2/template/index.html)
