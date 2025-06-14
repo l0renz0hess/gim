@@ -3,8 +3,8 @@ corso di grafica in movimento 2025, SUPSI
 
 
 ## Esercizio 1A
-- [Esercizio 1A acceso_spento_2](https://l0renz0hess.github.io/gim/Esercizio_1A/acceso_spento_2.html)
-- [Esercizio 1A acceso_spento_3](https://l0renz0hess.github.io/gim/Esercizio_1A/acceso_spento_3.html)
+- [Esercizio 1A acceso_spento_2](https://l0renz0hess.github.io/gim/Esercizio_1A/acceso_spento_02.html)
+- [Esercizio 1A acceso_spento_3](https://l0renz0hess.github.io/gim/Esercizio_1A/acceso_spento_03.html)
 - [Esercizio 1A aperto_chiuso_2](https://l0renz0hess.github.io/gim/Esercizio_1A/aperto_chiuso_2.html)
 - [Esercizio 1A aperto_chiuso_3](https://l0renz0hess.github.io/gim/Esercizio_1A/aperto_chiuso_3.html)
 - [Esercizio 1A rotazione_2](https://l0renz0hess.github.io/gim/Esercizio_1A/rotazione_2.html)
