@@ -22,7 +22,7 @@ corso di grafica in movimento 2025, SUPSI
 - [Esercizio 2](https://l0renz0hess.github.io/gim/Esercizio_2/template/index.html)
 
 ## Esercizio 3A
-- [Esercizio 3A pioggia](https://l0renz0hess.github.io/gim/Esercizio_3A/pioggia/index.html)
+
 - [Esercizio 3A neve](https://l0renz0hess.github.io/gim/Esercizio_3A/neve/index.html)
 - [Esercizio 3A pong](https://l0renz0hess.github.io/gim/Esercizio_3A/pong/index.html)
 
