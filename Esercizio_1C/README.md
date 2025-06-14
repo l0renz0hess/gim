@@ -1,0 +1,4 @@
+Il testo racconta, attraverso svariati esempi, come la conoscenza possa togliere spontaneità all’esecuzione di qualsiasi azione. L’esempio principale attraverso cui questo concetto viene dimostrato è quello del ballerino e della marionetta. Il ballerino ha acquisito conoscenze sulla danza che lo portano a forzare i movimenti nel tentativo di raggiungere un’armonia teorica perfetta. Questo, però, lo conduce a perdere la naturalezza nei gesti e, di conseguenza, a ottenere un risultato opposto rispetto a quello desiderato.
+La marionetta, invece, è mossa dal marionettista, che controlla solo alcune parti del suo corpo; le restanti si muovono semplicemente per effetto della gravità, poiché non esiste alcuna coscienza o volontà che le governi. Questo genera armonia, movimenti naturali e una forma di danza libera, non limitata dalle intenzioni di un individuo. 
+
+LLM usato unicamente per correggere la grammatica.
