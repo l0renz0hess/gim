@@ -1,53 +1,44 @@
-let fiocchi
+let fiocchi;
+let simboliFiocco = ["*", "⁎", "✱", "✲", "✳", "❄", "☆", "★", "❇", "❁", "✿"];
 
 function setup() {
-	createCanvas(windowWidth, windowHeight)
+	createCanvas(windowWidth, windowHeight);
+	textAlign(CENTER, CENTER);
+	fiocchi = [];
 
-	fiocchi = []
-
-	// crea una variabile composta (es. richiamabile tramite fiocchi[0].px)
-	for(let i=0; i<500;i++){
+	for (let i = 0; i < 300; i++) {
 		fiocchi[i] = {
-			px : random(0, width),
-			py : random(-100),
-			dim : random(20,40),
-			vel : random(1,5),
-			col : random(100,255)
-		}
-
+			px: random(0, width),
+			py: random(-100),
+			dim: random(10, 30),
+			vel: random(1, 2),
+			col: (random(1) < 0.9)
+				? color(random(100, 255)) 
+				: color(random(50, 255), random(50, 255), random(50, 255)),
+			simbolo: random(simboliFiocco)
+		};
 	}
-
-	
 }
 
 function windowResized() {
-	resizeCanvas(windowWidth, windowHeight)
+	resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-	// allinea il punto di spawn al centro del carattere
-	background(50)
-	textAlign(CENTER, CENTER)
-	
-	
-	for(let i=0; i<fiocchi.length;i++){
-		fill(fiocchi[i].col)
-		// randomizza il movimento di caduta del fiocco
-		fiocchi[i].px = fiocchi[i].px+random(-1.5,1.5)
-		fiocchi[i].py = fiocchi[i].py+fiocchi[i].vel
-	
-		// quando il fiocco supera la fine della finestra 
-		// viene ripristinato in cima
-		if(fiocchi[i].py > height) {
-			fiocchi[i].py = 0
-		}
-		
-		// stampa il fiocco
-		textSize(fiocchi[i].dim)
-		text("*", fiocchi[i].px,fiocchi[i].py)
-		
-			
-	}
+	background(50);
 
-	
+	for (let i = 0; i < fiocchi.length; i++) {
+		fill(fiocchi[i].col);
+		textSize(fiocchi[i].dim);
+
+		fiocchi[i].px += random(-1.5, 1.5);
+		fiocchi[i].py += fiocchi[i].vel;
+
+		if (fiocchi[i].py > height) {
+			fiocchi[i].py = 0;
+			fiocchi[i].px = random(0, width);
+		}
+
+		text(fiocchi[i].simbolo, fiocchi[i].px, fiocchi[i].py);
+	}
 }
