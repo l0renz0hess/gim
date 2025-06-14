@@ -1,7 +1,7 @@
 {
-	"name": "esempio05 pioggia3d",
-	"short_name": "esempio05 pioggia3d",
-	"description": "esempio05 pioggi3d",
+	"name": "esempio05 pioggia2",
+	"short_name": "esempio05 pioggia2",
+	"description": "esempio05 pioggia2",
 	"display_override": ["fullscreen"],
 	"display": "standalone",
 	"icons": [
